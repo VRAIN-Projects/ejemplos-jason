@@ -1,0 +1,6 @@
+
+MAS factorial {
+
+    agents: fact;
+
+}

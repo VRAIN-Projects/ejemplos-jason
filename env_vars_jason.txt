@@ -1,0 +1,14 @@
+Las variables de entorno se borran
+
+export JASON_HOME=/home/jferrus/JASON/jason/build
+export PATH=$JASON_HOME/scripts:$PATH
+
+
+Para ejecutar spade bdi
+source bdi-venv/bin/activate
+
+usar comando de python en el directorio exacto de los ejemplos, como:
+python3.9 actions.py 
+
+no
+python3.9 examples/actions.py
