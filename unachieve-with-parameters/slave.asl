@@ -9,3 +9,9 @@
     .wait(300);
     .print("Saludo", N);
   }.
+
++!saludar(N, M) <-
+  while (true) {
+    .wait(300);
+    .print("Saludo", N, "-", M);
+  }.
