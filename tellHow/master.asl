@@ -2,10 +2,17 @@
 
 +!start : true
    <- 
-      .print("Añadir plan"");
+      .print("Añadir plan");
       
-.send(slave, tellHow, "@pOD +!open(Door) : not locked(Door) <- turn_handle(Door); push(Door); ?open(Door)."):
+      .send(slave, tellHow, "+!hello <- .print('Hello world').");
+      
       
       .wait(1000);
-      .print("Plan añadido...");
+      .send(slave, achieve, hello);
+      .send(slave, achieve, hello);
+      .send(slave, achieve, hello);
+      .send(slave, achieve, hello);
+
+      .print("Plan añadido...")
     .
+

@@ -1,0 +1,7 @@
+
+MAS tell_mensaje {
+
+    agents:
+        sender;
+        receiver; 
+}

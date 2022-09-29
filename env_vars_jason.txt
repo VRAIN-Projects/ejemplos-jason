@@ -3,6 +3,8 @@ Las variables de entorno se borran
 export JASON_HOME=/home/jferrus/JASON/jason/build
 export PATH=$JASON_HOME/scripts:$PATH
 
+export PATH=/home/jferrus/JASON/jason/build/scripts:$PATH
+
 
 Para ejecutar spade bdi
 source bdi-venv/bin/activate
