@@ -1,18 +1,15 @@
-fly(si).
-
-tochthesky(si).
-
 !start.
+
+open(right_door).
 
 +!start <-
   .print("show value ...");
-  ?fly(N);
-  .print("fly = ", N);
+  ?open(Door);
+  .print("door = ", Door);
   .print("showed.");
   .print("get belief...");
-  .send(master, askOne, fly(M));
+  .send(master, askOne, open(Door), true);
   .print("received.");
   .print("show value ...");
-  ?fly(M);
-  .print("fly = ", M);
+  .print("door = ", Door);
   .print("showed.").

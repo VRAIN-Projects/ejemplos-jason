@@ -1,6 +1,2 @@
-!start.
-
-fly(no).
-
-tochthesky(no).
+open(left_door).
 
