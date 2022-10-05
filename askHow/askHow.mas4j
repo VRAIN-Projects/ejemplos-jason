@@ -1,0 +1,7 @@
+
+MAS ask_how {
+
+    agents:
+        master;
+        slave; 
+}
