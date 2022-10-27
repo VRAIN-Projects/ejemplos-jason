@@ -1,15 +1,11 @@
 !start.
-!adios.
--!adios.
--!adios.
-!adios.
 
 +!start <-
   .print("Esperando plan").
   
 +!adios : true <-
-  .print("Adios");
-  !adzfhbfhg.
+  .print("Adios, esta activo")
+.
 
 
 -!adios <- .print("Adios se ha eliminado").

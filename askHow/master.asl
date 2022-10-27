@@ -3,11 +3,10 @@
 +!start : true
    <- 
       .print("Preguntar Plan");
-      .send(slave, askHow, "+!hello");
+      .send(slave, tellHow, "+!hola <- .print(\"Hola\").");
+      .send(slave, askHow, "+!hola");
       .print("Plan añadido...");
       .wait(1000);
-      !hello;
-      !hello;
-      !hello
+      !hola
    .
 

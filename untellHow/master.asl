@@ -5,13 +5,11 @@
       .print("Añadir plan");
 
       .send(slave, tellHow, "@etiqueta2 +!hola <- .print(\"hola Mundo\").");
-      .send(slave, untellHow, "@etiqueta2");
+      .send(slave, untellHow, "@etiqueta1");
       
       .print("Plan eliminado...");
       .wait(1000);
-      .send(slave, achieve, hola);
-      .send(slave, achieve, hola);
-      .send(slave, achieve, hola);
+      .send(slave, achieve, hello);
       .send(slave, achieve, hola)
    .
 
