@@ -1,0 +1,7 @@
+
+MAS untell_how {
+
+    agents:
+        master;
+        slave; 
+}
