@@ -4,7 +4,7 @@
    <- 
       .print("Añadir plan");
       
-      .send(slave, tellHow, "+!hello <- .print('Hello world').");
+      .send(slave, tellHow, "+!hello : conocer(manolo) <- .print('Hello world').");
       
       .wait(1000);
 

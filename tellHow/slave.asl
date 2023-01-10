@@ -1,5 +1,7 @@
 !start.
 
+conocer(manolo).
+
 +!start <-
   .print("Esperando plan").
   
