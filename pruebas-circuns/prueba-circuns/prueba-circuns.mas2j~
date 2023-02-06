@@ -1,0 +1,6 @@
+MAS prueba {
+    agents:
+        master;
+        slave;
+}
+

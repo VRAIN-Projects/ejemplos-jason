@@ -1,0 +1,7 @@
+MAS prueba {
+	environment: VCWorld
+    agents:
+        master;
+        slave;
+}
+
